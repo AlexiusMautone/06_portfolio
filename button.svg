@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218.56 93.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 24px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #ef6a22;
+      }
+
+      .cls-4 {
+        fill: #7c3f1b;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <path class="cls-3" d="m218.56,44.83v.46c0,17.38-9.89,32.44-24.34,39.88-6.14,3.16-13.11,4.95-20.49,4.95H49.83c-24.76,0-44.83-20.07-44.83-44.83,0-12.34,4.99-23.53,13.07-31.64,1.93-1.94,4.04-3.7,6.3-5.25C31.56,3.43,40.27.5,49.66.46L173.56,0c24.83-.09,45,20,45,44.83Z"/>
+    <path class="cls-4" d="m194.22,85.17c-7.24,5.01-16.02,7.95-25.49,7.95H44.83C20.07,93.12,0,73.05,0,48.29c0-12.34,4.99-23.53,13.07-31.64,3.3-3.3,7.11-6.1,11.3-8.25-2.26,1.55-4.37,3.31-6.3,5.25-8.08,8.11-13.07,19.3-13.07,31.64,0,24.76,20.07,44.83,44.83,44.83h123.9c7.38,0,14.35-1.79,20.49-4.95Z"/>
+    <text class="cls-1" transform="translate(47.74 52.43)"><tspan class="cls-2" x="0" y="0">H</tspan><tspan x="15.84" y="0">jemmeside</tspan></text>
+  </g>
+</svg>

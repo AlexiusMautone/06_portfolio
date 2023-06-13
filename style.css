@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f1f2d6;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+p {
+  font-family: "eigerdals", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "eigerdals", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "eigerdals", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  background-color: #f1be5b;
+  margin-bottom: 5%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+header nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  padding: 5%;
+  gap: 10%;
+  white-space: nowrap;
+}
+
+.nav_button {
+  background-color: #f1f2d6;
+  border: none;
+  border-radius: 100px;
+  color: rgb(31, 31, 31);
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: -2px 2px #7c3f1b;
+  text-align-last: auto;
+  flex-basis: auto;
+}
+
+.nav_button:hover {
+  background-color: #f29058;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 15px 32px;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+  height: 20%;
+  background-color: #f1be5b;
+  margin-bottom: 5%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.hjemmeside_button {
+  background-color: #f29058;
+  border: none;
+  border-radius: 100px;
+  color: rgb(31, 31, 31);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: -2px 2px #7c3f1b;
+}
+
+.hjemmeside_button:hover {
+  background-color: #fdfaf2;
+  border: none;
+  border-radius: 100px;
+  color: rgb(31, 31, 31);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.col2 {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  margin-bottom: 4%;
+}
+
+.col3 {
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr;
+  gap: 5%;
+}
+
+.col3 img {
+  width: 100%;
+}
+
+.span:last-child {
+  grid-template-columns: 1fr 1fr 1f 1fr;
+  display: grid;
+  grid-row: span 2;
+}
+.logo {
+  margin-left: 5%;
+}
+
+.logo h3 {
+  display: grid;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo h3:hover {
+  display: grid;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: #f29058;
+}
+
+.logo a:visited {
+  color: inherit;
+}
+
+h1 {
+  display: grid;
+  justify-content: center;
+  font-size: 300%;
+}
+
+/* animation */
+
+.appear {
+  transition: all 0.8s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.appear.inview {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.3s;
+}
+
+.stay {
+  opacity: 1;
+  visibility: visible;
+  transition: none;
+}
+/* animation slut */
+
+.tema_text a {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.tema_text {
+  margin: 5%;
+}
+
+.main_grafik video {
+  width: 110%;
+  height: auto;
+}
+
+.portfolio_text h1 {
+  margin-top: 25%;
+  margin-left: 13%;
+}
+
+.ommig_text {
+  padding: 5%;
+}
+
+.ommig_text li {
+  padding: 5%;
+}
+.ommig_text li:last-child {
+  list-style: none;
+}
+
+.ommig_text li p i {
+  display: grid;
+  padding-left: 30%;
+}
+
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 930px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: grid;
+    justify-content: end;
+  }
+
+  /* layout */
+  .col2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 4%;
+  }
+
+  .col3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+
+  body {
+    max-width: 750px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .portfolio_text {
+    order: -1;
+  }
+}

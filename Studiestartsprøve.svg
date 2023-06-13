@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1015 727.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f29058;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #f1f2d6;
+      }
+
+      .cls-4 {
+        fill: #a9ab9a;
+      }
+
+      .cls-5 {
+        fill: #5769b1;
+      }
+
+      .cls-6 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-7 {
+        stroke: #f1be5b;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        stroke: #707071;
+      }
+    </style>
+  </defs>
+  <g class="cls-9">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Studiestartsprøve">
+        <g id="Rectangle_1" data-name="Rectangle 1">
+          <rect class="cls-2" y="0" width="1015" height="710" rx="53" ry="53"/>
+          <rect class="cls-8" x=".5" y=".5" width="1014" height="709" rx="52.5" ry="52.5"/>
+        </g>
+        <g>
+          <g class="cls-6">
+            <rect class="cls-4" x="222.1" y="16.5" width="465.96" height="710.83" rx="20.71" ry="20.71"/>
+          </g>
+          <rect class="cls-3" x="252.1" y=".5" width="465.96" height="710.83" rx="20.71" ry="20.71"/>
+        </g>
+        <rect class="cls-1" x="281.7" y="48.34" width="406.36" height="15.45"/>
+        <rect class="cls-5" x="281.9" y="276.13" width="287.82" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="330.75" width="406.36" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="353.47" width="406.36" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="376.2" width="326.3" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="398.92" width="380.07" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="421.65" width="380.07" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="444.37" width="403.15" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="521.72" width="380.07" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="544.44" width="298.42" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="567.17" width="352.03" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="589.89" width="380.07" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="612.62" width="403.15" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="635.34" width="403.15" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="71.59" width="406.36" height="15.45"/>
+        <rect class="cls-1" x="281.7" y="94.84" width="223.72" height="15.45"/>
+        <rect class="cls-7" x="281.7" y="143.45" width="70.77" height="70.77" rx="6.29" ry="6.29"/>
+        <rect class="cls-7" x="435.55" y="143.45" width="70.77" height="70.77" rx="6.29" ry="6.29"/>
+        <rect class="cls-7" x="589.4" y="143.45" width="70.77" height="70.77" rx="6.29" ry="6.29"/>
+      </g>
+    </g>
+  </g>
+</svg>
