@@ -75,12 +75,10 @@ header nav ul {
 }
 
 footer {
-  height: 20%;
+  height: 50px;
   background-color: #f1be5b;
-  margin-bottom: 5%;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
   align-items: center;
   border-radius: 10px;
 }
@@ -259,10 +257,16 @@ h1 {
     gap: 5%;
   }
 
+  .col3 img {
+    width: 100%;
+
+    display: grid;
+    justify-content: center;
+  }
+
   body {
     max-width: 750px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: auto;
   }
 
   .portfolio_text {
